@@ -19,9 +19,15 @@ public class SampleTest {
 		
 		driver.findElement(By.cssSelector("#email")).sendKeys("kishorekishore2610@gmail.com");
 		
+		Thread.sleep(2000);
+		
 		driver.findElement(By.cssSelector("#pass")).sendKeys("smkishore");
 		
+		Thread.sleep(2000);
+		
 		driver.findElement(By.name("login")).click();
+		
+		Thread.sleep(2000);
 		
 		driver.close();
 	}
