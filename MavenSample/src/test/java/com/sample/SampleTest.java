@@ -13,6 +13,10 @@ public class SampleTest {
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.google.com");
+		
+		thread.sleep(2000);
+		
+		driver.close();
 	}
 
 }
