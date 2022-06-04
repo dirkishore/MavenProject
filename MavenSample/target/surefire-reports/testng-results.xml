@@ -1,0 +1,14 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite">
+    <groups>
+    </groups>
+    <test name="Test">
+      <class name="com.sample.SampleTest">
+        <test-method signature="login()" started-at="2022-06-04T02:01:24Z" name="login" finished-at="2022-06-04T02:01:35Z" duration-ms="10341" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
