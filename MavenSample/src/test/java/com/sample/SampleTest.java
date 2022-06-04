@@ -12,7 +12,7 @@ public class SampleTest {
 
 		WebDriver driver = new ChromeDriver();
 
-		driver.get("https://www.google.com");
+		driver.get("https://www.facebook.com");
 		
 		Thread.sleep(2000);
 		
