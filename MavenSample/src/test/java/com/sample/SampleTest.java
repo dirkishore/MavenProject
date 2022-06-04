@@ -14,7 +14,7 @@ public class SampleTest {
 
 		driver.get("https://www.facebook.com");
 		
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		
 		driver.close();
 	}
