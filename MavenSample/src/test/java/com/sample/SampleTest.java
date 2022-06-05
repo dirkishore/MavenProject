@@ -3,15 +3,15 @@ package com.sample;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SampleTest {
 	@Test
 	public void login() throws InterruptedException{
 		
-		System.setProperty("webdriver.chrome.driver", "/home/kishore/Downloads/chromedriver");
+		System.setProperty("webdriver.gecko.driver", "/home/kishore/Downloads/geckodriver");
 
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
 
 		driver.get("https://www.facebook.com");
 		
