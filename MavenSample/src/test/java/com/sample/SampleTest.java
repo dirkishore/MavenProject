@@ -9,7 +9,7 @@ public class SampleTest {
 	@Test
 	public void login() throws InterruptedException{
 		
-		System.setProperty("webdriver.gecko.driver", "/home/kishore/Downloads/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/root/Downloads/geckodriver");
 
 		WebDriver driver = new FirefoxDriver();
 
