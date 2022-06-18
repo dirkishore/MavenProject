@@ -13,7 +13,7 @@ public class SampleTest {
 
 		WebDriver driver = new FirefoxDriver();
 
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.facebook.com/");
 		
 		Thread.sleep(2000);
 		
